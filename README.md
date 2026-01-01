@@ -4,4 +4,4 @@ A very simple project that aims to analyze network traffic packet by packet usin
 * The IOCs code contains known malicious IP addresses, ports, and byte sizes commonly associated with attacks, which are used by the IDS code for detection and prevention.
 * The Main code is responsible for running the project and reporting errors when they occur, such as an incorrect network interface name, a missing file, or invalid packets.
 * The Config code is used to call the other scripts using parameters. It allows selecting either live traffic (represented by 1) or an external file (represented by 0).
-*The "network traffic file" is captured using the Wireshark program and then analyzed by the Python scripts.
+* The "network traffic file" is captured using the Wireshark program and then analyzed by the Python scripts.
